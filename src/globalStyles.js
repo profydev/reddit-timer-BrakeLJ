@@ -59,3 +59,5 @@ img {
   display: block;
 }
 `;
+
+export default GlobalStyle;
