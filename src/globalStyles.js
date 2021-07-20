@@ -33,11 +33,13 @@ html {
 }
 
 body {
-  margin: 0;
-  font-size: 1.4rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
   font-family: var(--font-body);
   line-height: 2rem;
   font-weight: 400;
+  width: 1440px;
+
 }
 
 .sr-only {
@@ -57,6 +59,15 @@ img {
   height: auto;
   width: 100%;
   display: block;
+}
+
+li, ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
 }
 `;
 
